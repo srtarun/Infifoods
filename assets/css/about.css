@@ -1,0 +1,26 @@
+.note-sec {
+	 padding-top:50px;
+     padding-bottom:50px;
+    background: #5e5b5b;
+background-attachment: fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+width: 100%;
+display: block;
+height: auto;
+   min-height:300px;
+    color:#fff;
+}
+
+#about{
+	font-size:1.5em;
+	position:center;
+	color:white;
+	
+}
+
+#about_text{
+	font-style:italic;
+}
