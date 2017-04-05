@@ -168,10 +168,10 @@
     }
 
     // Refuse to run on IIS
-    $web_server = strtolower( $_SERVER['SERVER_SOFTWARE'] );
-    if( (strpos($web_server, 'microsoft')!==false) && (strpos($web_server, 'iis')!==false) ){
-        die( 'Microsoft-IIS Web Server not supported by CMS' );
-    }
+ //   $web_server = strtolower( $_SERVER['SERVER_SOFTWARE'] );
+ //   if( (strpos($web_server, 'microsoft')!==false) && (strpos($web_server, 'iis')!==false) ){
+ //       die( 'Microsoft-IIS Web Server not supported by CMS' );
+ //   }
 
     if( !extension_loaded('mysql') ){
         include_once( K_COUCH_DIR . 'includes/mysql2i/mysql2i.class.php' );
