@@ -42,10 +42,10 @@
     define( 'K_DB_NAME', 'infifoods' );
     // 5.
     // Database username
-    define( 'K_DB_USER', 'root' );
+    define( 'K_DB_USER', 'infifoods' );
     // 6.
     // Database password
-    define( 'K_DB_PASSWORD', 'foodblog' );
+    define( 'K_DB_PASSWORD', 'Cr570?_s4sjv' );
     // 7.
     // MySQL hostname (it will usually be 'localhost')
     define( 'K_DB_HOST', 'mysql4.gear.host' );
